@@ -1,4 +1,4 @@
-# Chat Bot Project
+# [Chat Bot](https://ash956901-chatbot-main-4sbaa2.streamlit.app/)
 
 This README file provides an extensive guide on setting up and running a Chat Bot using Streamlit and Cohere API. The bot allows for interactive conversation and showcases messages from both the user and the assistant.
 
