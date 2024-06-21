@@ -2,6 +2,7 @@ import streamlit as st
 import time as t
 import cohere
 
+
 st.title("Chat Bot")
 cont=st.container()
 
@@ -45,5 +46,15 @@ if prompt:
         "content":res 
     })
 
-   
- 
+st.markdown(
+    """
+    <style>
+    /* Adjust padding for the container */
+    .st-emotion-cache-1eo1tir {
+        padding-left: 0px; /* Adjust padding as needed */
+        padding-right:0px
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
