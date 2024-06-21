@@ -50,11 +50,16 @@ st.markdown(
     """
     <style>
     /* Adjust padding for the container */
+    @media only screen and (max-width: 600px) {
     .st-emotion-cache-1eo1tir {
-        padding-left: 0px; /* Adjust padding as needed */
-        padding-right:0px
+            padding-left: 0px; /* Adjust padding as needed */
+            padding-right:0px
+        }
     }
+    
     </style>
     """,
     unsafe_allow_html=True
 )
+
+#css added
